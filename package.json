@@ -1,0 +1,36 @@
+{
+  "name": "happyhippo",
+  "version": "1.0.0",
+  "description": "some random app with live updates",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsc & node .",
+    "dev": "tsc -w & nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/esthikl/server-client-live.git"
+  },
+  "author": "esther",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/esthikl/server-client-live/issues"
+  },
+  "homepage": "https://github.com/esthikl/server-client-live#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/node": "^18.14.1",
+    "@typescript-eslint/eslint-plugin": "^5.53.0",
+    "@typescript-eslint/parser": "^5.53.0",
+    "eslint": "^8.34.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "nodemon": "^2.0.20",
+    "prettier": "^2.8.4",
+    "typescript": "^4.9.5"
+  }
+}
