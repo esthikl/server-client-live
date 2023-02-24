@@ -2,7 +2,7 @@
   "name": "happyhippo",
   "version": "1.0.0",
   "description": "some random app with live updates",
-  "main": "dist/index.js",
+  "main": "dist/server/server.js",
   "scripts": {
     "build": "tsc",
     "start": "tsc & node .",
