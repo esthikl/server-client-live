@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 import './App.css';
+import Header from './header';
 
 class App extends Component {
 
-  state = {counter: [] as string[]}
+  state = { counter: [] as string[] }
 
   componentDidMount() {
     fetch('http://localhost:5000/')
@@ -19,9 +20,11 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App">
-        <h1>happyhippo</h1>
-        {this.state.counter}
+      <div className="App m-2">
+        <Header />
+        <div className='grid space-y-4 break-all'>
+          {this.state.counter}
+        </div>
       </div>
     );
   }
